@@ -105,6 +105,8 @@ class L2AReflectance(SlurmJobTask):
                "--num_neighbors=100",
                "--num_neighbors=10",
                "--num_neighbors=10",
+               "--retrieve_co2",
+               "--terrain_style=flat",,
                "--model_discrepancy_path", model_disc_file,
                "--pressure_elevation"]
 
